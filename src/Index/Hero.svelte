@@ -25,7 +25,6 @@ img {
 	position: relative;
 	overflow: hidden;
 	height: 100%;
-	max-height: 500px;
 }
 .hero-image h1 {
 	position: absolute;
