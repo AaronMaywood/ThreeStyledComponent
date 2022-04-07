@@ -3,7 +3,7 @@
 		<figure><img src="https://www.ikea.com/us/en/images/products/fejka-artificial-potted-plant-indoor-outdoor-cactus__0935865_PE792997_S5.JPG?f=xs" />
 		</figure>
 		<div>
-			<h3>Cactus</h3>
+			<h1>Cactus</h1>
 			<span class="price">$16.99</span>
 			<p>This plant is a very good one. There is a product description that talks about plant care and other details here.</p>
 			<button>Add to Cart</button>
@@ -16,8 +16,7 @@ img {
 	width: 100%;
 }
 
-figcaption,
-h3 {
+h1 {
 	font-size: 14px;
 	font-weight: 800;
 	text-transform: uppercase;
@@ -31,7 +30,7 @@ h3 {
 	margin: 0 1rem;
 }
 
-.product p {
+p {
 	margin-top: 1rem;
 	font-size: 13px;
 	color: #555;
@@ -53,24 +52,9 @@ button {
 	background: #c2ceb0;
 }
 
-/* これはProduct を利用する側(Sidebar)に持たせるべきCSS
-.sidebar .product + .product {
-	margin-top: 0.5rem;
-}
-*/
-
 /* CQ (=Container Query) コンテナークエリーに関連するもの */
 .product {
 	container: inline-size;
-}
-
-.hero .product {
-	position: absolute;
-	bottom: 1rem;
-	right: 1rem;
-	/* Slot the product card into a size */
-	width: 350px;
-	background: white;
 }
 
 /* Smaller version (ie. sidebar in this demo) */
