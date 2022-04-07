@@ -2,16 +2,14 @@
 
 <style>
 header {
-  grid-area: 😄;
-  background: #c2ceb0;
-  padding: 1rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+	background: #c2ceb0;
+	padding: 1rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
-
 h1,
 .menu {
-  font-size: 1.5rem;
+	font-size: 1.5rem;
 }
 </style>
