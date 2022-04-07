@@ -1,3 +1,8 @@
+<svelte:head>
+	<script src="https://unpkg.com/container-query-polyfill/cqfill.iife.min.js"></script>
+    <link rel="stylesheet" href='/product.css'>
+</svelte:head>
+
 <div class="product">
 	<div class="product-container">
 		<figure><img src="https://www.ikea.com/us/en/images/products/fejka-artificial-potted-plant-indoor-outdoor-cactus__0935865_PE792997_S5.JPG?f=xs" />
@@ -72,48 +77,4 @@ button {
 	width: 350px;
 	background: white;
 }
-
-/* Smaller version (ie. sidebar in this demo) */
-/*
-@container (max-width: 200px) {
-	.product-container {
-		border: 1px solid #c2ceb0;
-		padding: 0.5rem;
-		border-radius: 10px;
-		display: flex;
-		align-items: center;
-	}
-
-	.product-container h3 {
-		letter-spacing: 0;
-		width: 90px;
-		overflow: hidden;
-		text-overflow: ellipsis;
-		white-space: pre;
-		margin: 0;
-	}
-
-	.product-container span {
-		margin: 0;
-	}
-
-	.product-container p,
-	.product-container button {
-		display: none;
-	}
-}
-*/
-
-/* wider sizes (i.e in hero) */
-/*
-@container (min-width: 350px) {
-	.product-container {
-		padding: 0.5rem 0 0;
-		display: flex;
-	}
-	.product button {
-		margin-left: 1rem;
-	}
-}
-*/
 </style>
