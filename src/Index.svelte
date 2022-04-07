@@ -2,8 +2,8 @@
 import PageHeader from './Lib/PageHeader.svelte';
 import Hero from './Index/Hero.svelte';
 import Main from './Index/Main.svelte';
-/*
 import Sidebar from './Lib/Sidebar.svelte';
+/*
 import PageFooter from './Lib/PageFooter.svelte';
 */
 </script>
@@ -19,9 +19,7 @@ import PageFooter from './Lib/PageFooter.svelte';
 		<Main />
 	</div>
 	<div class="sidebar">
-		<!--
 		<Sidebar />
-		-->
 	</div>
 	<div class="footer">
 		<!--
