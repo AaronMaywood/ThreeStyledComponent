@@ -68,7 +68,7 @@ button {
 		align-items: center;
 	}
 
-	.product-container h3 {
+	.product-container h1 {
 		letter-spacing: 0;
 		width: 90px;
 		overflow: hidden;

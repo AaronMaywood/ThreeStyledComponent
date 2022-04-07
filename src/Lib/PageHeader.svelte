@@ -2,7 +2,6 @@
 
 <style>
 header {
-  grid-area: 😄;
   background: #c2ceb0;
   padding: 1rem;
   display: flex;
