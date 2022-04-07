@@ -1,7 +1,7 @@
 <script>
 import PageHeader from './Lib/PageHeader.svelte';
-/*
 import Hero from './Index/Hero.svelte';
+/*
 import Main from './Index/Main.svelte';
 import Sidebar from './Lib/Sidebar.svelte';
 import PageFooter from './Lib/PageFooter.svelte';
@@ -13,9 +13,7 @@ import PageFooter from './Lib/PageFooter.svelte';
 		<PageHeader />
 	</div>
 	<div class="hero">
-		<!--
 		<Hero />
-		-->
 	</div>
 	<div class="main">
 		<!--
