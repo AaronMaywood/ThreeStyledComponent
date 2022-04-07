@@ -3,9 +3,7 @@ import PageHeader from './Lib/PageHeader.svelte';
 import Hero from './Index/Hero.svelte';
 import Main from './Index/Main.svelte';
 import Sidebar from './Lib/Sidebar.svelte';
-/*
 import PageFooter from './Lib/PageFooter.svelte';
-*/
 </script>
 
 <div class="grid">
@@ -22,9 +20,7 @@ import PageFooter from './Lib/PageFooter.svelte';
 		<Sidebar />
 	</div>
 	<div class="footer">
-		<!--
 		<PageFooter />
-		-->
 	</div>
 </div>
 
