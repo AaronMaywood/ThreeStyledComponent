@@ -8,8 +8,12 @@ import Product from '../Lib/Product.svelte';
 		<h1>Work from home with a new plant friend.</h1>
 	</figure>
 	<div class="product">
-	    <!-- あとで正しい商品情報に入れ替えます -->
-		<Product />
+		<Product
+			src="https://www.ikea.com/us/en/images/products/fejka-artificial-potted-plant-with-pot-indoor-outdoor-succulent__0614211_PE686835_S5.JPG?f=xs"
+			heading="Succulent"
+			description="This plant is a very good one. There is a product description that talks about plant care and other details here."
+			price="$8.99"
+		/>
 	</div>
 </div>
 

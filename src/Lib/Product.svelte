@@ -1,11 +1,16 @@
+<script>
+export let src;
+export let heading;
+export let price;
+export let description;
+</script>
 <div class="product">
 	<div class="product-container">
-		<figure><img src="https://www.ikea.com/us/en/images/products/fejka-artificial-potted-plant-indoor-outdoor-cactus__0935865_PE792997_S5.JPG?f=xs" />
-		</figure>
+		<figure><img {src} alt="" /></figure>
 		<div>
-			<h1>Cactus</h1>
-			<span class="price">$16.99</span>
-			<p>This plant is a very good one. There is a product description that talks about plant care and other details here.</p>
+			<h3>{heading}</h3>
+			<span class="price">{price}</span>
+			<p>{description}</p>
 			<button>Add to Cart</button>
 		</div>
 	</div>
