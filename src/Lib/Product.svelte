@@ -57,52 +57,5 @@ button {
 	background: #c2ceb0;
 }
 
-/* CQ (=Container Query) コンテナークエリーに関連するもの */
-.product {
-	container: inline-size;
-}
-
-/* Smaller version (ie. sidebar in this demo) */
-/*
-@container (max-width: 200px) {
-	.product-container {
-		border: 1px solid #c2ceb0;
-		padding: 0.5rem;
-		border-radius: 10px;
-		display: flex;
-		align-items: center;
-	}
-
-	.product-container h3 {
-		letter-spacing: 0;
-		width: 90px;
-		overflow: hidden;
-		text-overflow: ellipsis;
-		white-space: pre;
-		margin: 0;
-	}
-
-	.product-container span {
-		margin: 0;
-	}
-
-	.product-container p,
-	.product-container button {
-		display: none;
-	}
-}
-*/
-
-/* wider sizes (i.e in hero) */
-/*
-@container (min-width: 350px) {
-	.product-container {
-		padding: 0.5rem 0 0;
-		display: flex;
-	}
-	.product button {
-		margin-left: 1rem;
-	}
-}
-*/
+/* ここにあったコンテナークエリーに関連するスタイルは、全て public/product.css に移行しました */
 </style>
