@@ -19,7 +19,7 @@ const products = [
 <div class="sidebar">
 	<h1>Recently Viewed:</h1>
 	{#each products as p}
-		<div class="product">
+		<div class="sidebar-product">
 			<Product {...p} />
 		</div>
 	{/each}
@@ -41,7 +41,7 @@ h1 {
 	text-align: center;
 }
 
-.product + .product {
+.sidebar-product + .sidebar-product {
 	margin-top: 0.5rem;
 }
 </style>

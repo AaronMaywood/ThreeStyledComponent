@@ -7,7 +7,7 @@ import Product from '../Lib/Product.svelte';
 		<img src="https://images.unsplash.com/photo-1459411552884-841db9b3cc2a?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=709&q=80" alt="small cactus on a pink background">
 		<h1>Work from home with a new plant friend.</h1>
 	</figure>
-	<div class="product">
+	<div class="hero-product">
 		<Product
 			src="https://www.ikea.com/us/en/images/products/fejka-artificial-potted-plant-with-pot-indoor-outdoor-succulent__0614211_PE686835_S5.JPG?f=xs"
 			heading="Succulent"
@@ -45,7 +45,7 @@ img {
 	object-fit: cover;
 	height: 100%;
 }
-.product {
+.hero-product {
 	position: absolute;
 	bottom: 1rem;
 	right: 1rem;
